@@ -1,0 +1,32 @@
+{
+  "name": "node-js-user-crud",
+  "version": "1.0.0",
+  "author": "Bhavik Ker <ker.bhavik@gmail.com> (https://www.linkedin.com/in/bhavik-ker-b8b04786/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhavsinh-ker/node-js-user-crud"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon start -e js,hbs,css,scss"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.4",
+    "date-and-time": "^2.0.1",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.13.0",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.15",
+    "mongoose-paginate-v2": "^1.4.2",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
